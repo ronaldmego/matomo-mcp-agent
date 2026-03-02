@@ -1,0 +1,19 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+.playwright-mcp/
+
+# Internal docs (not for public repo)
+CLAUDE.md
+tasks/
